@@ -16,7 +16,7 @@ It is necessary to separate some header fields from this http request message du
 
 <pre>
 <code>
- 123
+ (GET|POST) (.*) HTTP\/(.*)Host:\s*(\S+)(\\r\\n| |.com)
 </code>
 </pre>
 
